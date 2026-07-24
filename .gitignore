@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+aether_env/
+.env/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Project specific
+temp_audio.mp3
+*.log
+*.tmp
+*.temp
+output/
+logs/
+screenshots/
+*.lrc.bak
+
+# Media files (optional - uncomment if you don't want to track media)
+# *.mp3
+# *.mp4
+# *.wav
+# *.ogg
+# *.flac
+# *.avi
+# *.mkv
+# *.mov
+# *.flv
+# *.webm
+
+# FFmpeg (optional)
+ffmpeg.exe
+ffprobe.exe
+
+# Database
+*.db
+*.sqlite
+
+# OS specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# CustomTkinter cache
+customtkinter_cache/
