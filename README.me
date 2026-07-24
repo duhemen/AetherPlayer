@@ -162,3 +162,202 @@ pip install -r requirements.txt
 
 # 5️⃣ Run the application
 python main.py
+
+
+🎮 Usage Guide
+Basic Controls
+Action	Method
+🎵 Load Audio	Click "Pilih Audio" button
+🎬 Load Video	Click "Pilih Video (Karaoke)" button
+▶️ Play/Pause	Click "Play" button or press Space
+⏹️ Stop	Click "Stop" button or press S
+📡 Start/Stop Streaming	Click "GO LIVE" or press L
+⚙️ Settings	Click "Settings" button
+❌ Exit	Press Q
+🎯 AR Effects Guide
+How It Works
+The AI analyzes your facial expressions in real-time and applies dynamic AR effects based on:
+
+Smile Ratio - Width/Height ratio of your mouth
+
+Eyebrow Height - Vertical distance between eyebrows
+
+Nose Position - Vertical position of your nose
+
+Movement Detection - How long you stay still
+
+Expression-Based Effects
+Expression	Detection Criteria	AR Effect
+😍 Happy	Smile Ratio > 3.2	🌸 Blush on cheeks + warm glow
+🤨 Suspicious	Eyebrows > 7px + Smile < 3.0	🔮 Warp effect + "???" floating text
+😭 Sad	Smile Ratio < 2.2	💧 Tear drops + downward warp
+👑 Proud	Nose < 45% height + Smile < 2.5	✨ Sultan warp effect
+🧠 Blank	No movement > 3 seconds	💫 "Loading... 404" + expanding warp
+Lyrics File Format
+Create a .lrc file with the same name as your video/audio:
+
+lrc
+[00:00.00] Judul Lagu - Artis
+[00:05.00] 
+[00:08.00] Di ujung jalan ini
+[00:12.00] Ku teringat senyummu
+[00:16.00] Yang dulu pernah ada
+[00:20.00] Menemani langkahku
+🌐 Streaming Setup
+YouTube Live
+Go to YouTube Studio → Create → Go Live
+
+Copy your Stream Key
+
+In AetherPlayer, click Settings ⚙️
+
+Set URL to: rtmp://a.rtmp.youtube.com/live2
+
+Paste your Stream Key
+
+Click GO LIVE 📡
+
+Facebook Live
+Go to Facebook Creator Studio → Live
+
+Copy your Stream Key
+
+In AetherPlayer, click Settings ⚙️
+
+Set URL to: rtmp://live-api.facebook.com:443/rtmp/
+
+Paste your Stream Key
+
+Click GO LIVE 📡
+
+Custom RTMP Server
+python
+# config.py
+DEFAULT_RTMP_URL = "rtmp://your-server.com/live"
+DEFAULT_STREAM_KEY = "your-stream-key"
+🏗️ Project Structure
+text
+AetherPlayer/
+├── 📄 main.py              # Main application entry point
+├── 📄 config.py            # Configuration settings
+├── 📄 streamer.py          # RTMP streaming handler
+├── 📄 effects.py           # AR effects engine
+├── 📄 settings_window.py   # Settings dialog
+├── 📄 requirements.txt     # Python dependencies
+├── 📄 README.md            # Documentation
+├── 📄 .gitignore           # Git ignore file
+├── 📄 LICENSE              # License file
+├── 📁 assets/              # Icons, images, assets
+├── 📁 lyrics/              # .lrc lyric files
+├── 📁 logs/                # Application logs
+├── 📁 tests/               # Unit tests
+└── 📁 docs/                # Additional documentation
+🔧 Configuration
+config.py - Complete Reference
+python
+# config.py
+
+# --- Streaming Settings ---
+DEFAULT_RTMP_URL = "rtmp://localhost/live"
+DEFAULT_STREAM_KEY = "your-stream-key-here"
+FPS = 30
+MAX_STREAM_KEY_LENGTH = 30
+
+# --- Window Settings ---
+DEFAULT_WINDOW_WIDTH = 1200
+DEFAULT_WINDOW_HEIGHT = 800
+
+# --- Audio Settings ---
+AUDIO_SAMPLE_RATE = 44100
+AUDIO_CHANNELS = 2
+AUDIO_BUFFER = 512
+
+# --- AR Effects Settings ---
+SMILE_THRESHOLD = 3.2
+EYEBROW_THRESHOLD = 7.0
+NOSE_THRESHOLD = 0.45
+MOVEMENT_TIMEOUT = 3.0
+
+# --- UI Settings ---
+APPEARANCE_MODE = "dark"  # "dark", "light", "system"
+COLOR_THEME = "blue"     # "blue", "green", "dark-blue"
+🚨 Troubleshooting
+Common Issues & Solutions
+Issue	Solution
+❌ FFmpeg not found	Download from ffmpeg.org and place in project folder or add to PATH
+❌ Camera not working	Check camera permissions, try different camera index (change cv2.VideoCapture(0) to 1)
+❌ No audio from video	Ensure FFmpeg is installed for audio extraction, or use MP3 files directly
+❌ Black screen on video	Check video codec support (H.264 recommended), convert video using FFmpeg
+❌ Streaming fails	Verify RTMP URL and Stream Key are correct, check internet connection
+❌ MediaPipe import error	Install mediapipe==0.10.7 or use cvzone fallback
+❌ High CPU usage	Reduce video resolution, lower FPS, close background applications
+Debug Mode
+bash
+# Enable debug logging
+python main.py --debug
+
+# Or add to main.py
+DEBUG = True  # Add this line at the top
+🤝 Contributing
+We welcome contributions! Here's how you can help:
+
+🍴 Fork the repository
+
+🌿 Create a feature branch (git checkout -b feature/amazing)
+
+💻 Commit your changes (git commit -m 'Add amazing feature')
+
+🚀 Push to the branch (git push origin feature/amazing)
+
+📝 Open a Pull Request
+
+Development Guidelines
+✅ Follow PEP 8 style guide
+
+✅ Add docstrings to all functions
+
+✅ Write unit tests for new features
+
+✅ Update README.md if needed
+
+✅ Ensure backward compatibility
+
+bash
+# Run tests
+pytest tests/
+
+# Check code style
+flake8 main.py
+
+# Format code
+black main.py
+📈 Roadmap
+Version	Status	Features
+v1.0.0	✅ Released	Core features: Audio/Video playback, AR effects, Streaming
+v1.1.0	🔄 In Progress	Recording feature, Subtitle support (.srt), Multiple camera support
+v1.2.0	📋 Planned	Audio equalizer, Audio effects, Voice modulation
+v2.0.0	📋 Planned	AI voice effects, Real-time translation, Cloud sync
+v2.1.0	📋 Planned	Mobile companion app, Remote control
+v3.0.0	📋 Planned	Virtual Background, Green Screen, Multi-stream
+🏆 Credits
+Component	Technology	Credit
+🧠 AI/ML	MediaPipe	Google
+🎨 GUI Framework	CustomTkinter	Tom Schimansky
+📸 CV Library	OpenCV	OpenCV Team
+🔊 Audio Engine	Pygame	Pygame Community
+🎵 Audio Processing	FFmpeg	FFmpeg Team
+
+<div align="center">
+💜 Made with Love by the AetherPlayer Team
+Built for Streamers • Created with Passion • Powered by AI
+
+text
+  ╔═══════════════════════════════════════════════════════════════╗
+  ║                                                               ║
+  ║   🎭  AetherPlayer - Where Technology Meets Creativity       ║
+  ║                                                               ║
+  ║   "Transform your webcam into a professional studio"         ║
+  ║                                                               ║
+  ╚═══════════════════════════════════════════════════════════════╝
+</div> ```
+
