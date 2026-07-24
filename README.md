@@ -1,9 +1,9 @@
 ## 📄 **README.md**
 
-```markdown
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&duration=3000&pause=1000&color=00BCD4&center=true&vCenter=true&width=600&height=70&lines=🎭+AetherPlayer;AI-Powered+Virtual+Studio" alt="AetherPlayer Typing Animation"/>
+<!-- TYPPING ANIMATION - VERSI TERBARU -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=36&duration=3000&pause=1000&color=00BCD4&center=true&vCenter=true&width=500&height=70&lines=%F0%9F%8E%AD+AetherPlayer;AI-Powered+Virtual+Studio" alt="AetherPlayer Typing Animation" />
 
 <br>
 
@@ -14,32 +14,32 @@
 <br>
 
 <!-- Main Badges -->
-<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-4.9%2B-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/MediaPipe-0.10%2B-00B4D8?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/CustomTkinter-5.2%2B-1F6AA5?style=for-the-badge&logo=tkinter&logoColor=white"/>
-<img src="https://img.shields.io/badge/FFmpeg-6.0%2B-007808?style=for-the-badge&logo=ffmpeg&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/OpenCV-4.9%2B-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/MediaPipe-0.10%2B-00B4D8?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe"/>
+<img src="https://img.shields.io/badge/CustomTkinter-5.2%2B-1F6AA5?style=for-the-badge&logo=tkinter&logoColor=white" alt="CustomTkinter"/>
+<img src="https://img.shields.io/badge/FFmpeg-6.0%2B-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Platform-Windows%20|%20Mac%20|%20Linux-informational?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"/>
+<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome"/>
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/Platform-Windows%20|%20Mac%20|%20Linux-informational?style=for-the-badge" alt="Platform"/>
 
 <br>
 
 <!-- Creator Badge -->
-<img src="https://img.shields.io/badge/Created%20by-duhemen-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Made%20in-Indonesia-E7442E?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmMDAwMCIvPjxyZWN0IHk9IjIwMCIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4=&logoColor=white"/>
+<img src="https://img.shields.io/badge/Created%20by-duhemen-ff69b4?style=for-the-badge&logo=github&logoColor=white" alt="Created by duhemen"/>
+<img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge" alt="Built with Love"/>
+<img src="https://img.shields.io/badge/Made%20in-Indonesia-E7442E?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmMDAwMCIvPjxyZWN0IHk9IjIwMCIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4=&logoColor=white" alt="Made in Indonesia"/>
 
 <br>
 
-<img src="https://img.shields.io/github/stars/duhemen/AetherPlayer?style=social"/>
-<img src="https://img.shields.io/github/forks/duhemen/AetherPlayer?style=social"/>
-<img src="https://img.shields.io/github/watchers/duhemen/AetherPlayer?style=social"/>
-<img src="https://img.shields.io/github/followers/duhemen?label=Follow&style=social"/>
+<img src="https://img.shields.io/github/stars/duhemen/AetherPlayer?style=social" alt="GitHub stars"/>
+<img src="https://img.shields.io/github/forks/duhemen/AetherPlayer?style=social" alt="GitHub forks"/>
+<img src="https://img.shields.io/github/watchers/duhemen/AetherPlayer?style=social" alt="GitHub watchers"/>
+<img src="https://img.shields.io/github/followers/duhemen?label=Follow&style=social" alt="GitHub followers"/>
 
 </div>
 
