@@ -1,0 +1,412 @@
+
+
+
+```markdown
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/🎭-AetherPlayer-00bcd4?style=for-the-badge&logo=python&logoColor=white" alt="AetherPlayer" width="400"/>
+  
+  # 🎭 AetherPlayer
+
+  ### *AI-Powered Virtual Studio & Karaoke Live Streaming Platform*
+
+  [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+  [![OpenCV](https://img.shields.io/badge/OpenCV-4.9+-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
+  [![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-00B4D8?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/mediapipe)
+  [![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.2+-1F6AA5?style=flat-square&logo=tkinter&logoColor=white)](https://customtkinter.tomschimansky.com/)
+  [![FFmpeg](https://img.shields.io/badge/FFmpeg-6.0+-007808?style=flat-square&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+  [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](http://makeapullrequest.com)
+
+  [![GitHub Stars](https://img.shields.io/github/stars/yourusername/AetherPlayer?style=social)](https://github.com/yourusername/AetherPlayer)
+  [![GitHub Forks](https://img.shields.io/github/forks/yourusername/AetherPlayer?style=social)](https://github.com/yourusername/AetherPlayer)
+
+</div>
+
+---
+
+## 🚀 **Overview**
+
+**AetherPlayer** is a next-generation, AI-powered virtual studio and karaoke live streaming platform. Combining **real-time facial tracking**, **augmented reality effects**, **multi-format media playback**, and **professional live streaming** capabilities, it transforms your webcam into a fully-featured broadcast studio.
+
+### ✨ **Key Features**
+
+| Feature | Description |
+|---------|-------------|
+| 🎤 **Karaoke Mode** | Play video/audio files with synchronized lyrics (.lrc support) |
+| 🤖 **AI Face Tracking** | Real-time facial landmark detection using MediaPipe |
+| 🎭 **AR Effects** | Dynamic facial distortions, blush effects, and expression-based reactions |
+| 📡 **Live Streaming** | RTMP streaming to platforms like YouTube, Facebook, Twitch |
+| 🎵 **Multi-Format Support** | MP3, WAV, OGG, FLAC, MP4, AVI, MKV, MOV, WEBM |
+| 🎬 **Video Overlay** | Picture-in-picture video playback with adjustable opacity |
+| ⚙️ **Modern UI** | Dark mode interface with CustomTkinter |
+| ⌨️ **Keyboard Shortcuts** | Space, S, L for quick control |
+| 💾 **Settings Management** | Persistent URL and Stream Key storage |
+
+---
+
+## 🎯 **Why AetherPlayer?**
+
+- 🎮 **Gaming-Ready**: Perfect for streamers who want to add AR effects to their face
+- 🎤 **Karaoke Nights**: Host virtual karaoke sessions with synchronized lyrics
+- 🎥 **Content Creation**: Create engaging content with dynamic facial effects
+- 🌐 **Live Broadcasting**: Stream to any RTMP-compatible platform
+- 🧠 **AI-Powered**: Real-time facial expression analysis and response
+
+---
+
+## 📸 **Screenshots**
+
+<div align="center">
+  
+  *[Coming Soon: Screenshots of AetherPlayer in action]*
+
+  ```
+  ┌────────────────────────────────────────────────────────────────┐
+  │  🎭 AetherPlayer - Studio Live & Karaoke                      │
+  │  ┌──────────────────────────────┐ ┌────────────────────────┐ │
+  │  │                              │ │ 🔴 STANDBY              │ │
+  │  │      Video Display           │ │ 🎵 Media Name           │ │
+  │  │      (Camera + Video         │ │ Mode: KARAOKE           │ │
+  │  │       Overlay)               │ │ 🎤 Lirik: -             │ │
+  │  │                              │ │ ──────────────────────  │ │
+  │  │                              │ │ 🎵 Pilih Audio          │ │
+  │  │                              │ │ 🎬 Pilih Video          │ │
+  │  │                              │ │ ▶️ Play   ⏹️ Stop      │ │
+  │  │                              │ │ ──────────────────────  │ │
+  │  │                              │ │ 📡 GO LIVE              │ │
+  │  │                              │ │ ⚙️ Settings             │ │
+  │  │                              │ │ URL: rtmp://...         │ │
+  │  │                              │ │ 🎭 Ekspresi: Normal     │ │
+  │  └──────────────────────────────┘ └────────────────────────┘ │
+  └────────────────────────────────────────────────────────────────┘
+  ```
+
+</div>
+
+---
+
+## 🛠️ **Tech Stack**
+
+### **Core Technologies**
+- **Python 3.10+** - Primary programming language
+- **OpenCV** - Computer vision and image processing
+- **MediaPipe** - AI-powered facial landmark detection
+- **Pygame** - Audio playback engine
+- **CustomTkinter** - Modern GUI framework
+- **FFmpeg** - Audio/video processing and transcoding
+
+### **Libraries & Dependencies**
+| Library | Version | Purpose |
+|---------|---------|---------|
+| opencv-python | 4.9+ | Camera capture & image processing |
+| opencv-contrib-python | 4.9+ | Extended OpenCV features |
+| mediapipe | 0.10.7+ | AI face mesh detection |
+| cvzone | 1.6+ | Simplified CV utilities |
+| pygame | 2.5+ | Audio playback |
+| customtkinter | 5.2+ | Modern GUI components |
+| numpy | 1.24+ | Numerical operations |
+| Pillow | 10.0+ | Image handling |
+| pywin32 | 306+ | Windows API integration |
+
+---
+
+## 📦 **Installation**
+
+### **Prerequisites**
+
+1. **Python 3.10 or higher**
+   ```bash
+   python --version
+   ```
+
+2. **FFmpeg** (Required for video audio extraction)
+   - **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html)
+   - Add `ffmpeg.exe` to your PATH or place in project folder
+   - **Mac**: `brew install ffmpeg`
+   - **Linux**: `sudo apt install ffmpeg`
+
+### **Quick Start**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/AetherPlayer.git
+cd AetherPlayer
+
+# 2. Create virtual environment
+python -m venv aether_env
+
+# 3. Activate virtual environment
+# Windows
+aether_env\Scripts\activate
+# Mac/Linux
+source aether_env/bin/activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Run the application
+python main.py
+```
+
+### **Docker Support** *(Coming Soon)*
+
+```dockerfile
+# Future Docker implementation
+FROM python:3.10-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+CMD ["python", "main.py"]
+```
+
+---
+
+## 🎮 **Usage Guide**
+
+### **Basic Controls**
+
+| Action | Method |
+|--------|--------|
+| 🎵 Load Audio | Click "Pilih Audio" button |
+| 🎬 Load Video | Click "Pilih Video (Karaoke)" button |
+| ▶️ Play/Pause | Click "Play" button or press `Space` |
+| ⏹️ Stop | Click "Stop" button or press `S` |
+| 📡 Start/Stop Streaming | Click "GO LIVE" or press `L` |
+| ⚙️ Settings | Click "Settings" button |
+| ❌ Exit | Press `Q` |
+
+### **AR Effects Guide**
+
+The AI automatically detects your facial expressions and applies effects:
+
+| Expression | Effect |
+|------------|--------|
+| 😍 **Smile (>3.2 ratio)** | Blush on cheeks |
+| 🤨 **Raised eyebrows (>7px diff)** | Warp effect + "???" text |
+| 😭 **Frown (<2.2 ratio)** | Tear drops + downward warp |
+| 👑 **Nose up (<45%)** | "Sultan" warp effect |
+| 🧠 **Blank (>3s no movement)** | "Loading... 404" + warp |
+
+### **Lyrics File Format**
+
+Create a `.lrc` file with the same name as your video/audio:
+
+```lrc
+[00:00.00] Judul Lagu - Artis
+[00:05.00] 
+[00:08.00] Di ujung jalan ini
+[00:12.00] Ku teringat senyummu
+[00:16.00] Yang dulu pernah ada
+[00:20.00] Menemani langkahku
+```
+
+---
+
+## 🌐 **Streaming Setup**
+
+### **YouTube Live**
+
+1. Go to YouTube Studio → Create → Go Live
+2. Copy the **Stream Key**
+3. In AetherPlayer, click **Settings** ⚙️
+4. Set URL to: `rtmp://a.rtmp.youtube.com/live2`
+5. Paste your Stream Key
+6. Click **GO LIVE** 📡
+
+### **Facebook Live**
+
+1. Go to Facebook Creator Studio → Live
+2. Copy the **Stream Key**
+3. In AetherPlayer, click **Settings** ⚙️
+4. Set URL to: `rtmp://live-api.facebook.com:443/rtmp/`
+5. Paste your Stream Key
+6. Click **GO LIVE** 📡
+
+### **Custom RTMP Server**
+
+```python
+# In config.py
+DEFAULT_RTMP_URL = "rtmp://your-server.com/live"
+DEFAULT_STREAM_KEY = "your-stream-key"
+```
+
+---
+
+## 🏗️ **Project Structure**
+
+```
+AetherPlayer/
+├── 📄 main.py              # Main application entry point
+├── 📄 config.py            # Configuration settings
+├── 📄 streamer.py          # RTMP streaming handler
+├── 📄 effects.py           # AR effects engine
+├── 📄 settings_window.py   # Settings dialog
+├── 📄 requirements.txt     # Python dependencies
+├── 📄 README.md            # This file
+├── 📄 .gitignore           # Git ignore file
+├── 📁 assets/              # Icons, images, assets
+├── 📁 lyrics/              # .lrc lyric files
+└── 📁 logs/                # Application logs
+```
+
+---
+
+## 🔧 **Configuration**
+
+### **config.py**
+
+```python
+# Streaming Settings
+DEFAULT_RTMP_URL = "rtmp://localhost/live"
+DEFAULT_STREAM_KEY = "your-stream-key"
+FPS = 30
+
+# Window Settings
+DEFAULT_WINDOW_WIDTH = 1200
+DEFAULT_WINDOW_HEIGHT = 800
+
+# Security
+MAX_STREAM_KEY_LENGTH = 30
+```
+
+---
+
+## 🚨 **Troubleshooting**
+
+### **Common Issues**
+
+| Issue | Solution |
+|-------|----------|
+| ❌ FFmpeg not found | Download from [ffmpeg.org](https://ffmpeg.org/download.html) and place in project folder |
+| ❌ Camera not working | Check camera permissions, try different camera index |
+| ❌ No audio from video | Ensure FFmpeg is installed for audio extraction |
+| ❌ Black screen on video | Check video codec support (H.264 recommended) |
+| ❌ Streaming fails | Verify RTMP URL and Stream Key are correct |
+| ❌ MediaPipe import error | Install `mediapipe==0.10.7` or use `cvzone` fallback |
+
+### **Debug Mode**
+
+```bash
+# Enable debug logging
+python main.py --debug
+
+# Or modify main.py
+DEBUG = True  # Add this line at the top
+```
+
+---
+
+## 🤝 **Contributing**
+
+We welcome contributions! Here's how you can help:
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** a feature branch (`git checkout -b feature/amazing`)
+3. 💻 **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. 🚀 **Push** to the branch (`git push origin feature/amazing`)
+5. 📝 **Open** a Pull Request
+
+### **Development Guidelines**
+
+- Follow PEP 8 style guide
+- Add docstrings to all functions
+- Test your changes before submitting
+- Update the README if needed
+
+---
+
+## 📈 **Roadmap**
+
+| Version | Features |
+|---------|----------|
+| v1.0.0 | ✅ Core features: Audio/Video playback, AR effects, Streaming |
+| v1.1.0 | 🔄 Recording feature, Subtitle support (.srt) |
+| v1.2.0 | 🔄 Audio equalizer, Multiple camera support |
+| v2.0.0 | 🔄 AI voice effects, Real-time translation |
+| v2.1.0 | 🔄 Mobile companion app, Cloud sync |
+
+---
+
+## 🏆 **Credits**
+
+- **AI/ML**: [MediaPipe](https://developers.google.com/mediapipe) by Google
+- **GUI Framework**: [CustomTkinter](https://customtkinter.tomschimansky.com/)
+- **CV Library**: [OpenCV](https://opencv.org/)
+- **Audio Engine**: [Pygame](https://www.pygame.org/)
+
+---
+
+## 📜 **License**
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+```
+MIT License
+
+Copyright (c) 2024 AetherPlayer Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+...
+```
+
+---
+
+## 💬 **Contact & Support**
+
+| Platform | Link |
+|----------|------|
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/yourusername/AetherPlayer/issues) |
+| 💬 **Discussions** | [GitHub Discussions](https://github.com/yourusername/AetherPlayer/discussions) |
+| 📧 **Email** | support@aetherplayer.dev |
+| 🌐 **Website** | [aetherplayer.dev](https://aetherplayer.dev) |
+
+---
+
+## ⭐ **Support the Project**
+
+If you find AetherPlayer useful, consider:
+
+- ⭐ Starring the repository on GitHub
+- 🐛 Reporting issues and bugs
+- 📝 Improving the documentation
+- 💰 Sponsoring the project
+- 🎨 Creating video tutorials
+
+---
+
+<div align="center">
+
+### Made with 💜 by the AetherPlayer Team
+
+**Built for Streamers • Created with Love • Powered by AI**
+
+</div>
+
+---
+
+## 📊 **Badges**
+
+<div align="center">
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+![GitHub watchers](https://img.shields.io/github/watchers/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/AetherPlayer?style=for-the-badge&logo=github)
+
+![Static Badge](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-informational?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
+
+</div>
+```
+
+---
