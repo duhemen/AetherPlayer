@@ -419,15 +419,3 @@ black main.py
 ```
 
 ---
-
-## ✨ **Badge Pribadi yang Ditambahkan:**
-
-| Badge | Deskripsi |
-|-------|-----------|
-| `Created by-duhemen-ff69b4` | Menampilkan pembuat dengan warna pink |
-| `Built with-❤️-red` | Menampilkan dibuat dengan cinta |
-| `Made in-Indonesia-E7442E` | Menampilkan lokasi pembuat dengan bendera Indonesia |
-| `GitHub followers-duhemen` | Menampilkan jumlah followers |
-| **Meet the Creator** | Section khusus untuk profil pembuat |
-
----
