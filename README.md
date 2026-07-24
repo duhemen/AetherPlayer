@@ -408,9 +408,9 @@ black main.py
   ║                                                               ║
   ║   🎭  AetherPlayer - Where Technology Meets Creativity       ║
   ║                                                               ║
-  ║   "Transform your webcam into a professional studio"         ║
+  ║   "Transform your webcam into a professional studio"          ║
   ║                                                               ║
-  ║   Created with ❤️ by yourself                                 ║
+  ║   Created with ❤️ by yourself                                ║
   ║                                                               ║
   ╚═══════════════════════════════════════════════════════════════╝
 ```
