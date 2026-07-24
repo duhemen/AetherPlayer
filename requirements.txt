@@ -1,0 +1,57 @@
+# ============================================================
+# AETHERPLAYER - Dependencies
+# Python 3.10+ Required
+# ============================================================
+
+# ------------------------------------------------------------
+# Core Computer Vision & AI
+# ------------------------------------------------------------
+opencv-python>=4.9.0.80
+opencv-contrib-python>=4.9.0.80
+mediapipe==0.10.7                # Stable version with solutions support
+cvzone>=1.6.0                    # Simplified CV utilities
+
+# ------------------------------------------------------------
+# Audio Processing
+# ------------------------------------------------------------
+pygame>=2.5.2                    # Audio playback engine
+sounddevice>=0.4.6              # Audio input/output
+
+# ------------------------------------------------------------
+# GUI Framework
+# ------------------------------------------------------------
+customtkinter>=5.2.2             # Modern GUI components
+Pillow>=10.1.0                   # Image processing for GUI
+
+# ------------------------------------------------------------
+# Numerical & Scientific
+# ------------------------------------------------------------
+numpy>=1.24.0                    # Numerical operations
+scipy>=1.11.0                    # Scientific computing
+
+# ------------------------------------------------------------
+# System & Utilities
+# ------------------------------------------------------------
+pywin32>=306                     # Windows API integration (Windows only)
+colorama>=0.4.6                  # Terminal colors
+psutil>=5.9.0                    # System monitoring
+requests>=2.31.0                 # HTTP requests
+
+# ------------------------------------------------------------
+# Text Processing
+# ------------------------------------------------------------
+regex>=2023.10.3                 # Advanced regex for lyrics parsing
+
+# ------------------------------------------------------------
+# Development & Debugging
+# ------------------------------------------------------------
+# pytest>=7.4.0                  # Testing framework
+# black>=23.11.0                 # Code formatter
+# flake8>=6.1.0                  # Linter
+# mypy>=1.7.0                    # Type checking
+# ------------------------------------------------------------
+
+# ============================================================
+# OPTIONAL: For video processing (install manually)
+# FFmpeg: https://ffmpeg.org/download.html
+# ============================================================
